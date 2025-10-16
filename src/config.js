@@ -20,30 +20,30 @@ export const BuildingConfig = {
   OrcCamp: {
     baseCost: 200,
     costGrowth: 1.05,
-    spawnPerMinute: 1,
+    spawnPerMinute: 1.2,
   },
   TrollDen: {
-    baseCost: 500,
+    baseCost: 600,
     costGrowth: 1.05,
-    spawnPerMinute: 0.5,
+    spawnPerMinute: 0.6,
   },
   OgreTower: {
     baseCost: 2000,
     costGrowth: 1.05,
-    spawnPerMinute: 0.2,
+    spawnPerMinute: 0.3,
   },
   DragonRoost: {
-    baseCost: 10000,
+    baseCost: 15000,
     costGrowth: 1.05,
     spawnPerMinute: 0.1,
   },
 };
 
 export const EnemyConfig = {
-  baseHp: 5,
+  baseHp: 2.5,
   hpGrowth: 1.07,
   baseDmg: 0.5,
-  dmgGrowth: 1.05,
+  dmgGrowth: 1.06,
 };
 
 export const ArtifactConfig = {
@@ -63,7 +63,7 @@ export const ArtifactConfig = {
   },
   GoblinPower: {
     baseCost: 20,
-    costGrowth: 1.2,
+    costGrowth: 1.21,
     effect: "unitPower%",
     effectValue: 0.1,
     appliesTo: "Goblin",
@@ -71,7 +71,7 @@ export const ArtifactConfig = {
   },
   OrcPower: {
     baseCost: 50,
-    costGrowth: 1.2,
+    costGrowth: 1.22,
     effect: "unitPower%",
     effectValue: 0.1,
     appliesTo: "Orc",
@@ -79,7 +79,7 @@ export const ArtifactConfig = {
   },
   TrollPower: {
     baseCost: 200,
-    costGrowth: 1.2,
+    costGrowth: 1.23,
     effect: "unitPower%",
     effectValue: 0.1,
     appliesTo: "Troll",
@@ -87,7 +87,7 @@ export const ArtifactConfig = {
   },
   OgrePower: {
     baseCost: 400,
-    costGrowth: 1.2,
+    costGrowth: 1.24,
     effect: "unitPower%",
     effectValue: 0.1,
     appliesTo: "Ogre",
@@ -95,7 +95,7 @@ export const ArtifactConfig = {
   },
   DragonPower: {
     baseCost: 2000,
-    costGrowth: 1.2,
+    costGrowth: 1.25,
     effect: "unitPower%",
     effectValue: 0.1,
     appliesTo: "Dragon",
@@ -103,35 +103,35 @@ export const ArtifactConfig = {
   },
   hutBoost: {
     baseCost: 40,
-    costGrowth: 1.2,
+    costGrowth: 1.21,
     effect: "buildingSummon%",
     effectValue: 0.1,
     maxTier: 1000,
   },
   CampBoost: {
     baseCost: 100,
-    costGrowth: 1.2,
+    costGrowth: 1.22,
     effect: "buildingSummon%",
     effectValue: 0.1,
     maxTier: 1000,
   },
   DenBoost: {
     baseCost: 400,
-    costGrowth: 1.2,
+    costGrowth: 1.23,
     effect: "buildingSummon%",
     effectValue: 0.1,
     maxTier: 1000,
   },
   TowerBoost: {
     baseCost: 800,
-    costGrowth: 1.2,
+    costGrowth: 1.24,
     effect: "buildingSummon%",
     effectValue: 0.1,
     maxTier: 1000,
   },
   RoostBoost: {
     baseCost: 4000,
-    costGrowth: 1.2,
+    costGrowth: 1.25,
     effect: "buildingSummon%",
     effectValue: 0.1,
     maxTier: 1000,

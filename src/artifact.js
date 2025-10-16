@@ -10,7 +10,7 @@ for (const key in ArtifactConfig) {
 
 export function getHeroSoulMultiplier(enemyLevel = 1) {
   const boosterTier = artifactStates["HeroSoulBooster"] || 0;
-  const baseSouls = Math.floor(enemyLevel / 20) + 1;
+  const baseSouls = Math.floor(enemyLevel / 50) + 1;
   return baseSouls + boosterTier * 0.1;
 }
 
