@@ -98,9 +98,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (enemy) {
         enemyInfoDiv.innerHTML = `🧑‍🎤 <strong>Level ${enemy.getLevel()}</strong> &nbsp; | &nbsp; HP: ${enemy
           .getCurrentHp()
-          .toFixed(1)} / ${enemy
+          .toFixed(0)} / ${enemy
           .getMaxHp()
-          .toFixed(1)} &nbsp; | &nbsp; DMG: ${enemy.getDmg().toFixed(1)}`;
+          .toFixed(0)} &nbsp; | &nbsp; DMG: ${enemy.getDmg().toFixed(0)}`;
       }
       updateSidebarStats();
     } else {
@@ -124,9 +124,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (enemy) {
         enemyInfoDiv.innerHTML = `🧑‍🎤 <strong>Level ${enemy.getLevel()}</strong> &nbsp; | &nbsp; HP: ${enemy
           .getCurrentHp()
-          .toFixed(1)} / ${enemy
+          .toFixed(0)} / ${enemy
           .getMaxHp()
-          .toFixed(1)} &nbsp; | &nbsp; DMG: ${enemy.getDmg().toFixed(1)}`;
+          .toFixed(0)} &nbsp; | &nbsp; DMG: ${enemy.getDmg().toFixed(0)}`;
       }
     }
 
@@ -170,9 +170,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (enemy) {
       enemyInfoDiv.innerHTML = `🧑‍🎤 <strong>Level ${enemy.getLevel()}</strong> &nbsp; | &nbsp; HP: ${enemy
         .getCurrentHp()
-        .toFixed(1)} / ${enemy
+        .toFixed(0)} / ${enemy
         .getMaxHp()
-        .toFixed(1)} &nbsp; | &nbsp; DMG: ${enemy.getDmg().toFixed(1)}`;
+        .toFixed(0)} &nbsp; | &nbsp; DMG: ${enemy.getDmg().toFixed(0)}`;
     }
     document.getElementById("battle-log").textContent = "";
   }
